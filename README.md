@@ -1,2 +1,2 @@
 # dvdImageGame
-In this project, I recreated the iconic image as a kid when waiting for the dvd image to hit the corner of a the screen while waiting for a movie to load
+In this project, I recreated the iconic image as a kid when waiting for the dvd image to hit the corner of the screen while waiting for a movie to load. I added a start and stop button if a user wanted to pause and start the process along with a hit counter which tells the user how many border hits there are which resets after ever corner hit. In addition, every time a corner is touched, I set a random generator to change the color of the screen. I used HTML, CSS, and javascript for this project.
