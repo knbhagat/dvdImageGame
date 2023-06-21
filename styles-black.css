@@ -1,0 +1,89 @@
+.button-container {
+    display : flex;
+    margin-bottom : 25px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(9, 1, 14);
+}
+
+h1 {
+    font-size: 32px;
+    color: #f8f3f3;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #0af05b;
+    background-color: #f5f2f2;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(247, 245, 245, 0.5);
+}
+
+#start-button {
+    float: left;
+}
+
+#stop-button {
+    float: right;
+}
+
+#game-container {
+    width: 800px;
+    height: 500px;
+    border: 10px solid rgb(248, 246, 246);
+    position: relative;
+    margin: 0 auto;
+}
+
+#game-counter {
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    font-size: 25px;
+    color: #0af05b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#dvd {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* #hit-counter { 
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    font-size: 48px;
+    color: rgb(8, 8, 8); /* Adjust the color as desired 
+    animation: flashyText 3s ease-in-out 3;
+    visibility: hidden;
+}
+
+@keyframes flashyText {
+    0% { visibility: hidden; }
+    20% { visibility: visible; }
+    25% { visibility: hidden; }
+    40% { visibility: visible; }
+    45% { visibility: hidden; }
+    60% { visibility: visible; }
+    65% { visibility: hidden; }
+    80% { visibility: visible; }
+    85% { visibility: hidden; }
+    100% { visibility: visible; }
+} */
