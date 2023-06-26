@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
             incrementCount(++wallCount);
             if ((y + dvdImage.offsetHeight - 15 >= container.offsetHeight) || (y <= 35)) { //check if ball hits edge
                 dy = -dy;
-                hitCounter(wallCount);
                 wallCount = 0;
                 incrementCount(wallCount);
                 changeColor();
